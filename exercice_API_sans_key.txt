@@ -1,0 +1,2 @@
+curl -X POST -u "apikey:xxxxxxx" --header "Content-Type: application/json"  --header "Accept: audio/wav"  --data "{""text"": ""Hello everybody""}" --output hello_world.wav https://stream-fra.watsonplatform.net/text-to-speech/api/v1/synthesize
+
